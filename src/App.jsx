@@ -25,7 +25,6 @@ function App() {
     { name: "ND Birthday", date: new Date(2024, 3, 2) },
     { name: "Second Chicago Trip", date: new Date(2024, 2, 26) },
     { name: "Alma best day ever", date: new Date(2024, 4, 3) },
-    { name: "Alma best day ever", date: new Date(2024, 4, 3) },
     { name: "Alma adopted", date: new Date(2024, 5, 2) },
     { name: "Grand Canyon Trip", date: new Date(2024, 5, 30) },
     { name: "Glass Animals Concert", date: new Date(2024, 7, 13) },
