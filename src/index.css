@@ -70,3 +70,57 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scrolling-text-container {
+  position: relative;
+  width: 100%;
+  max-width: 7xl;
+  overflow: hidden;
+  background: transparent;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+.scrolling-text-inner {
+  display: flex;
+  width: fit-content;
+  animation: scroll 15s linear infinite;
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  flex-shrink: 0;
+}
+
+.fade-edges::before,
+.fade-edges::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.fade-edges::before {
+  left: 0;
+  background: linear-gradient(to right, rgb(88, 28, 135) 0%, transparent 100%);
+}
+
+.fade-edges::after {
+  right: 0;
+  background: linear-gradient(to left, rgb(88, 28, 135) 0%, transparent 100%);
+}

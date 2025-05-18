@@ -120,6 +120,15 @@ function App() {
         </div>
       </div>
 
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="scrolling-text-container fade-edges">
+          <div className="scrolling-text-inner">
+            <span className="scrolling-text">I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ </span>
+            <span className="scrolling-text">I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ I love you SB!! ❤️ </span>
+          </div>
+        </div>
+      </div>
+
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 tracking-tight">
           Upcoming Anniversaries
